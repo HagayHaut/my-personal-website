@@ -1,12 +1,33 @@
-#header {
-    text-align: center;
-    background: rgb(170, 94, 23);
+body {
+    background:rgb(218, 140, 67)
 }
+#title {
+    font-family: impact;
+    font-size: 80px;
+}
+
+#skills {
+    font-family: georgia;
+}
+
+#title, #skills {
+    text-align: center;
+}
+
 #quote {
     text-align: center;
-    font-family: Helvetica;
+    font-family: georgia;
     font-size: large;
 }
+
+#bio {
+    text-align: center;
+}
+
 #content {
     background: rgb(170, 103, 40);
+    margin-top: 0;
+    padding: 0;
+    font-family: georgia;
 }
+
