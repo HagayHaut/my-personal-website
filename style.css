@@ -1,7 +1,12 @@
 #header {
     text-align: center;
+    background: rgb(170, 94, 23);
 }
-
-body {
-    background: rgb(226, 150, 78);
+#quote {
+    text-align: center;
+    font-family: Helvetica;
+    font-size: large;
+}
+#content {
+    background: rgb(170, 103, 40);
 }
