@@ -11,7 +11,20 @@ body {
 }
 
 #title, #skills {
-    text-align: center;
+    text-align: right;
+}
+
+.header-container {
+    border: 3px solid black;
+    padding: 2rem 2rem;
+    margin: 1rem;
+}
+
+.header-item {
+    display: inline-flex;
+    border: 4px solid black;
+    vertical-align: middle;
+    padding: 2rem;
 }
 
 #quote {
@@ -29,17 +42,21 @@ body {
     font-family: georgia;
 }
 
-.item {
-    width: 100%;
-}
 
 .container {
-    display: flex;
-    flex-wrap: wrap;
+    border: 3px solid black;
+    padding: 2rem 2rem;
+    margin: 1rem;
 }
 
-.container > div {
-    flex: 50%;
-    box-shadow: 0 0 0 1px;
-    margin-bottom: 10px;
+.item {
+    display: inline-flex;
+    border: 4px solid black;
+    vertical-align: middle;
+    padding: 20px;
+}
+
+
+#education {
+    text-align: center;
 }

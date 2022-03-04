@@ -5,9 +5,21 @@
       <title>My Personal Website</title>
   </head>
   <body>
-    <header id="header">
-      <h1 id="title">| Hagay Haut |</h1>
-      <h2 id="skills">| Software Engineer | Sound Engineer | Pizza Engineer |</h2>
+    <header id="header" class="header-container">
+      <div class="header-container">
+        <h1 id="title">| Hagay Haut |</h1>
+        <h2 id="skills">| Software Engineer | Sound Engineer | Pizza Engineer |</h2>
+      </div>
+      <div class="header-container">
+        <div>
+          <h2>
+            <a href="https://github.com/HagayHaut" target="_blank">GitHub</a>
+          </h2>
+          <h2>
+            <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+          </h2>
+        </div>
+      </div>
     </header>
     <div id="content">
       <p id="quote"><em>"The sixth sick Sheik's sixth sheep's sick."   - Hardest sentence for native English speakers to pronounce, according to <a href="https://www.cnet.com/news/mit-researchers-create-worlds-trickiest-tongue-twister/" target="_blank">MIT</a></em></p>
@@ -15,36 +27,40 @@
         <h3>Biography:</h3>
         <p id="bio-content">Born and raised in Israel, Hagay immigrated to the US in 2002 at the age of 9. A life long tinkerer, he has been taking things apart to study their inner workings from a young age.</p>
       </div>
-        <div>
-          <div id="lists">
-            <h3>&nbsp;Skills:</h3>
-            <ul>
-              <li><b>Programming Languages</b></li>
-                <ul>
-                  <li>JavaScript</li>
-                  <li>HTML</li>
-                  <li>CSS</li>
-              </ul>
-            </ul>
-            <ul>
-              <li><b>Programs Known</b></li>
+        <div class="container">
+            <div id="lists-container" class="item">
+              <h3>&nbsp;Skills:</h3>
               <ul>
-                <li>GitHub</li>
-                <li>Visual Studio Code</li>
-                <li>Linux</li>
-                <li>Logic & Ableton DAWs</li>
-              </ul>
-            </ul>
-            <ul>
-              <li><b>Other Skills</b></li>
-                <ul>
-                  <li>Juggling</li>
-                  <li>Music Composition</li>
-                  <li>Making Pizza</li>
-                  <li>Petting Dog</li>
-                  <li>Bushcraft</li>
+                <li><b>Programming Languages</b></li>
+                  <ul>
+                    <li>JavaScript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
                 </ul>
-            </ul>
+              </ul>
+              <ul>
+                <li><b>Programs Known</b></li>
+                <ul>
+                  <li>GitHub</li>
+                  <li>Visual Studio Code</li>
+                  <li>Linux</li>
+                  <li>Logic & Ableton DAWs</li>
+                </ul>
+              </ul>
+              <ul>
+                <li><b>Other Skills</b></li>
+                  <ul>
+                    <li>Juggling</li>
+                    <li>Music Composition</li>
+                    <li>Making Pizza</li>
+                    <li>Petting Dog</li>
+                    <li>Bushcraft</li>
+                  </ul>
+              </ul>
+            </div>
+            <div id="image-container" class="item">
+              <img src="./images/Hagay_Bio.png.jpg" alt="Bio Picture" width="540" height="470">
+            </div>
           </div>
           <div id="education">
             <h3>&nbsp;Education:</h3>
@@ -67,7 +83,6 @@
                   </ul>
             </ul>
           </div>
-        </div>
     </div>
       <script src="script.js"></script>
   </body>
